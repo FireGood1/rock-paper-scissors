@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+* {
+  font-family: "Silkscreen", "Times New Roman", Times, serif;
+}
+p {
+    font-size: 16px;
+}
 #title-container {
     display: flex;
     justify-content: center;
@@ -22,4 +30,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.rock, .paper, .scissors {
+    font-size: 24px;
+    font-weight: bold;
+
 }
