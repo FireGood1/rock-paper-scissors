@@ -51,6 +51,6 @@ function playRound(humanChoice, computerChoice) {
             winner.textContent = "You won! Congratulations!";
         }
     else if (computerScore == 5) {
-        winner.textContent = "You lost ):. Better luck next time!";
+        winner.textContent = "You lost ): Better luck next time!";
      }  
 }

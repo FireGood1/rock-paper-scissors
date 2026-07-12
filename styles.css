@@ -1,30 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
-
+body {
+    background-color:rgb(61, 61, 61);
+}
 * {
-  font-family: "Silkscreen", "Times New Roman", Times, serif;
+    font-family: "Silkscreen", "Times New Roman", Times, serif;
 }
 p {
-    font-size: 16px;
+    font-size: 24px;
+}
+h1, h2 {
+    font-weight: normal;
+}
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 32px;
 }
 #title-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
+    width: 100vw;
+    height: 100%;
+    margin: 0px 0px;
+    padding: 24px 16px;
 }
 .title {
     font-size: 64px;
     font-weight: bold;
+    border: 8px ridge darkgray;
+    background-color: lightgray;
 }
 #button-container {
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 16px;
+    background-color: rgb(100, 100, 100);
+    padding: 48px 16px;
+    margin: 0px 0px;
+    width: 100vw;
+    height: 100%;
 }
 #results-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(85, 85, 85);
+    padding: 48px 16px;
+    margin: 0px 0px;
+    width: 100vw;
+    height: 100%;
 }
 #choice-container {
     display: flex;
@@ -32,7 +60,20 @@ p {
     align-items: center;
 }
 .rock, .paper, .scissors {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
 
+}
+.rock {
+    background-color: darkslategray;
+    border: 8px outset rgb(37, 50, 50);
+}
+
+.paper {
+    background-color: white;
+    border: 8px outset rgb(221, 221, 221);
+}
+.scissors {
+    background-color: rgb(171, 27, 27);
+    border: 8px outset rgb(139, 21, 21);
 }
